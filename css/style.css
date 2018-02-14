@@ -1,4 +1,4 @@
-body {
+body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -10,6 +10,13 @@ h2 {
 	font-size: 55px;
 	text-align: left;
 	margin: 10px;
+	padding-top: 10px;
+}
+
+h3 {
+	font-family: Lato, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
 }
 
 h6 {
@@ -92,47 +99,63 @@ h6 {
 	opacity:1; 
 }
 
+dt {
+	font-family: Lato, sans-serif;
+	font-weight: bold;
+}
+
+dd {
+	font-family: Lato, sans-serif;
+}
+
 #slide1 {
 	background-image: url('../img/bike.jpg');
-	color: #fff;
-	height: 600px;
-	margin: 0;
-	padding: 200px 0 260px 0;
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 #slide2 {
 	background-image: url('../img/bridgerun.jpeg');
-	color: #fff;
-	height: 600px;
-	margin: 0;
-	padding: 200px 0 260px 0;
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 #slide3 {
 	background-image: url('../img/dance.jpeg');
-	color: #fff;
-	height: 600px;
-	margin: 0;
-	padding: 200px 0 260px 0;
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 #slide4 {
 	background-image: url('../img/vrgaming.jpeg');
-	color: #fff;
-	height: 600px;
-	margin: 0;
-	padding: 200px 0 260px 0;
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 #slide5 {
 	background-image: url('../img/yoga.jpeg');
-	color: #fff;
-	height: 600px;
-	margin: 0;
-	padding: 200px 0 260px 0;
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+/*Turn off parallax for small screen devices */
+@media only screen and (max-device-width: 1024px) {
+    .slide1 {
+        background-attachment: scroll;
+    }
 }
