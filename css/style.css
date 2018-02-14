@@ -9,18 +9,18 @@ h2 {
 	font-weight: bold;
 	font-size: 55px;
 	text-align: left;
-	margin: 10px;
+	margin: 10px 0;
 	padding-top: 10px;
 }
 
-h3 {
+h4 {
 	font-family: Lato, sans-serif;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 22px;
 }
 
 h6 {
-	font-family: Lato;
+	font-family: Lato, sans-serif;
 	font-weight: normal;
 	font-size: 16px;
 	text-align: center;
@@ -29,13 +29,12 @@ h6 {
 	position: relative;
 }
 
-.center {
-	margin: 0 auto;
-}
-
-.content1 {
-	margin: 0 auto;
-	width: 960px;
+/*Adjust page jump to accomodate for navbar*/
+#content1, #content2, #content3, #content4, #content5 {
+    padding-top: 110px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: -110px;
 }
 
 .clear {
@@ -63,7 +62,7 @@ h6 {
 	font-size: 30px; 
 	margin-top: 30px; 
 	color: #fff; 
-	font-family: 'Josefin Sans'; 
+	font-family: 'Josefin Sans', sans-serif; 
 	font-weight: bold; 
 }
 
