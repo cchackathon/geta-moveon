@@ -4,7 +4,7 @@ body{
 	width: 100%;
 }
 
-h2 {
+/*h2 {
 	font-family: "Josefin Sans", sans-serif;
 	font-weight: bold;
 	font-size: 55px;
@@ -30,7 +30,7 @@ h6 {
 }
 
 /*Adjust page jump to accomodate for navbar*/
-#content1, #content2, #content3, #content4, #content5 {
+/*#content1, #content2, #content3, #content4, #content5 {
     padding-top: 110px;
     padding-left: 10%;
     padding-right: 10%;
@@ -150,11 +150,11 @@ dd {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+}*/
 
 /*Turn off parallax for small screen devices */
-@media only screen and (max-device-width: 1024px) {
+/*@media only screen and (max-device-width: 1024px) {
     .slide1 {
         background-attachment: scroll;
     }
-}
+}*/
