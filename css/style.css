@@ -21,22 +21,34 @@ body{
 	font-size: 32px;
 }
 
-/*h2 {
-	font-family: "Josefin Sans", sans-serif;
+h2 {
 	font-weight: bold;
-	font-size: 55px;
+	font-size: 40px;
 	text-align: left;
 	margin: 10px 0;
 	padding-top: 10px;
 }
 
 h4 {
-	font-family: Lato, sans-serif;
-	font-weight: bold;
 	font-size: 22px;
+	text-decoration: underline;
+	padding-top: 5px;
 }
 
-h6 {
+.row {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.row-striped:nth-of-type(even) {
+  background-color: #f1f1f1;
+}
+
+.row-striped:nth-of-type(odd) {
+	background-color: #f9f9f9;
+}
+
+/*h6 {
 	font-family: Lato, sans-serif;
 	font-weight: normal;
 	font-size: 16px;
@@ -44,20 +56,11 @@ h6 {
 	margin: 15px 0;
 	z-index: 1;
 	position: relative;
-}
-
-/*Adjust page jump to accomodate for navbar*/
-#content1, #content2, #content3, #content4, #content5 {
-    padding-top: 110px;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: -110px;
-    padding-bottom: 10px;
-}
+}*/
 
 /*.clear {
 	clear: both;
-}*/
+}
 
 /*#header {
 	width: 100%;
@@ -71,6 +74,11 @@ h6 {
 	margin-top: 30px; 
 	background-color: #000000;
 }
+
+/*.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}*/
 
 /*#logo a { 
 	color: #fff; 
@@ -125,6 +133,32 @@ dd {
 }*/
 .card {
 	margin-bottom: 10px;
+	border: 0px;
+}
+
+.card-body {
+	padding: 0px;
+	border: 0px;
+}
+
+.card-title {
+	text-align: center;
+	font-weight: bold;
+	background-color: #f1f1f1;
+	padding: 0.5em 0 0.5em 0;
+	margin-bottom: 0px;
+	border-radius: .5em .5em 0 0;
+}
+
+.card-text {
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 0 0 .5em .5em;
+	text-align: center;
+}
+
+.time {
+	font-weight: bold;
 }
 
 #slide1 {
@@ -177,5 +211,22 @@ dd {
 @media only screen and (max-device-width: 1024px) {
     #slide1, #slide2, #slide3, #slide4, #slide5 {
         background-attachment: scroll;
+    }
+}
+
+/*Adjust page jump to accomodate for navbar*/
+#content1, #content2, #content3, #content4, #content5 {
+    padding-top: 110px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: -110px;
+    padding-bottom: 10px;
+}
+
+/* Resize schedule for small screen devices */
+@media only screen and (max-device-width: 1024px) {
+    #content2 {
+    	padding-left: 2%;
+    	padding-right: 2%;
     }
 }
