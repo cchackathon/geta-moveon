@@ -1,3 +1,5 @@
+@import url(style.css);
+
 body{
 	font-family: Lato, sans-serif;
 }
@@ -48,89 +50,11 @@ h4 {
 	background-color: #f9f9f9;
 }
 
-/*h6 {
-	font-family: Lato, sans-serif;
-	font-weight: normal;
-	font-size: 16px;
-	text-align: center;
-	margin: 15px 0;
-	z-index: 1;
-	position: relative;
-}*/
-
-/*.clear {
-	clear: both;
-}
-
-/*#header {
-	width: 100%;
-	background-color: #000000;
-	height: 80px;
-	position: fixed;
-	margin-top: 30px;
-}*/
-
 #nav { 
 	margin-top: 30px; 
 	background-color: #000000;
 }
 
-/*.navbar-nav > li{
-  padding-left:30px;
-  padding-right:30px;
-}*/
-
-/*#logo a { 
-	color: #fff; 
-	text-decoration: none; 
-	float: left; 
-	font-size: 30px; 
-	margin-top: 30px; 
-	color: #fff; 
-	font-family: 'Josefin Sans', sans-serif; 
-	font-weight: bold; 
-}*/
-
-/*#nav ul{
-	list-style: none;
-	display: block;
-	margin: 0 auto;
-	list-style: none;
-}*/
-
-/*#nav li{
-	margin-top: 9px;
-	float: left;
-	padding-left: 21px;
-}*/
-
-/*#nav li a { 
-	color: #fff; 
-	opacity:0.6; 
-	font-size: 16px; 
-	text-decoration: none; 
-	font-family: Lato, sans-serif; 
-}*/
-
-/*#nav li a.active { 
-	color: #fff; 
-	opacity:1; 
-	border-bottom: 2px solid #fff; 
-}*/
-
-/*#nav li a:hover { 
-	color: #fff; 
-	opacity:1; 
-}*/
-
-/*dt {
-	font-family: Lato, sans-serif;
-	font-weight: bold;
-}
-
-dd {
-	font-family: Lato, sans-serif;
-}*/
 .card {
 	margin-bottom: 10px;
 	border: 0px;
