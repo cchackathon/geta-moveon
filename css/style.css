@@ -41,7 +41,7 @@ h4 {
 }
 
 .row-striped:nth-of-type(even) {
-  background-color: #fff;
+  background-color: #f1f1f1;
 }
 
 .row-striped:nth-of-type(odd) {
@@ -133,6 +133,28 @@ dd {
 }*/
 .card {
 	margin-bottom: 10px;
+	border: 0px;
+}
+
+.card-body {
+	padding: 0px;
+	border: 0px;
+}
+
+.card-title {
+	text-align: center;
+	font-weight: bold;
+	background-color: #f1f1f1;
+	padding: 0.5em 0 0.5em 0;
+	margin-bottom: 0px;
+	border-radius: .5em .5em 0 0;
+}
+
+.card-text {
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 0 0 .5em .5em;
+	text-align: center;
 }
 
 .time {
