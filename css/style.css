@@ -1,3 +1,4 @@
+/* Because the CSS wasn't loading on Chrome mobile */
 @import url(style.css);
 
 body{
